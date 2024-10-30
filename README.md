@@ -5,9 +5,7 @@ This project provides an implementation of a Constraint Satisfaction Problem (CS
 A ***CSP*** is formulated as:
 
 **Variables:** A set of variables, each representing an element in the problem. For example, in a scheduling problem, each task could be a variable.
-
 **Domains:** Each variable has a domain of possible values it can take. For example, a task's domain might be a list of possible time slots.
-
 **Constraints:** A set of restrictions that define the valid combinations of variable assignments. For example, certain tasks cannot occur at the same time.
 
 ## CSP Example: Sudoku Puzzle
