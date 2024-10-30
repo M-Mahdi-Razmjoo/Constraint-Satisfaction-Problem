@@ -12,6 +12,7 @@ A ***CSP*** is formulated as:
 In a Sudoku puzzle, each cell is a variable, the possible numbers (1-9) are the domain, and the constraints ensure that each number appears only once per row, column, and 3x3 sub-grid.
 
 ## Key Components
+
 **Constraint Propagation:** Techniques like forward checking and arc-consistency are used to reduce the search space by enforcing constraints as early as possible.
 **Backtracking Search:** This classic search technique tries different variable assignments, backtracking whenever a conflict (constraint violation) arises. While it is simple, it is also efficient when combined with constraint propagation.
 **Heuristics:** The solver can be improved by incorporating heuristics like:
